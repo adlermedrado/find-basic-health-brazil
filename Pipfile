@@ -1,0 +1,27 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+dj-database-url = "*"
+django = "*"
+django-extensions = "*"
+django-filter = "*"
+djangorestframework = "*"
+gunicorn = "*"
+prettyconf = "*"
+"psycopg2" = "*"
+
+
+[dev-packages]
+
+ipdb = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+pgcli = "*"
