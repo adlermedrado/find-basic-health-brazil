@@ -23,3 +23,9 @@ makemigrations:
 
 migrate:
 	pipenv run python health/manage.py migrate
+
+shell:
+	pipenv run python health/manage.py shell_plus
+
+test:
+	pipenv run py.test -vvv -s health
